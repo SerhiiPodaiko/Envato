@@ -1,0 +1,576 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+/*===========================
+Start HEADER
+============================*/
+body {
+	min-width: 396px;
+}
+
+.slider-header {
+	width: 100%;
+	height: 858px;
+	background-image: url(../img/bg.jpg);
+	opacity: 0.6;
+	transition: 3s ease;
+}
+
+.slider-header:hover {
+	opacity: 1;
+	transition: 0.6s;
+}
+
+.navigation {
+	border: 2px solid red;
+}
+
+ul {
+	padding: 0;
+	display: flex;
+	list-style: none;
+}
+
+.navigation_left a, .navigation_right a {
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 43px;
+	margin-top: 30px;
+	color: #fff;
+	font-weight: bold;
+	display: block;
+	padding: 0 5px;
+}
+
+.navigation_left li:hover, .navigation_right li:hover {
+	transition: 0.6s;
+	border-bottom: 2px solid #fff;
+}
+
+.navigation_center h1 {
+	color: #fff;
+	font-size: 50px;
+	color: #fff;
+	padding-top: 15px;
+}
+
+.navigation_center h1:hover {
+	transition: 0.8s;
+	border-bottom: 2px solid #fff;
+	cursor: pointer;
+}
+
+.navigation_center p {
+	color: #fff;
+	font-size: 12px;
+	color: #fff;
+}
+
+.navigation_left  {
+	margin-left: 70px;
+}
+
+.title_center {
+	margin-top: 250px;
+}
+
+.title_center h1 {
+	font-size: 72px;
+	color: #fff;
+}
+
+.title_center p {
+	font-size: 20px;
+	line-height: 20px;
+	color: #fff;
+}
+
+#services {
+	background: #343434;
+	color: #e24707;
+	border-radius: 6px;
+	outline: none;
+}
+
+#services:hover {
+	border: 2px solid #151515;
+	transform: rotate(360deg);
+	transition: 0.7s ease;
+}
+
+.hide_li {
+	display: none;
+	width: 255px;
+	background: #343434;
+	color: #bbbbbb;
+	font-size: 14px;
+	position: absolute;
+}
+
+.hide_li ul {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	text-indent: 20px;
+}
+
+.hide_li li:hover {
+	background: #282323;
+	transition: 0.7s;
+	cursor: pointer;
+}
+/*===========================
+	About us
+============================*/
+.abou_us {
+	width: 100%;
+	height: 865px;
+	background: #fff;
+}
+
+.abou_us_left a, .abou_us_right a {
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 43px;
+	margin-top: 30px;
+	color: #343434;
+	font-weight: bold;
+	display: block;
+	padding: 0 5px;
+}
+
+.abou_us_left li:hover, .abou_us_right li:hover {
+	transition: 0.6s;
+	border-bottom: 2px solid #343434;
+}
+
+.abou_us_left  {
+	margin-left: 70px;
+}
+
+.abou_us_center h1 {
+	color: #343434;
+	font-size: 50px;
+	padding-top: 15px;
+}
+
+.abou_us_center h1:hover {
+	transition: 0.8s;
+	border-bottom: 2px solid #343434;
+	cursor: pointer;
+}
+
+.abou_us_center p {
+	color: #fff;
+	font-size: 12px;
+	color: #343434;
+}
+
+.fixed_title {
+	border-bottom: 2px solid #343434;
+	/*position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;*/
+}
+
+.fixed_title:hover {
+	transition: 1.3s;
+	transform: scale(1.1);
+}
+
+.title_about {
+	margin-top: 114px;
+}
+
+.title_about h1 {
+	text-transform: uppercase;
+	font-size: 36px;
+	line-height: 43px;
+	color: #666666;
+}
+
+.title_about h1:hover {
+	border-bottom: 2px solid #343434;
+	transition: 1s;
+	cursor: pointer;
+	color: #000;
+	font-weight: bold;
+}
+
+.title_about p {
+	font-size: 14px;
+	line-height: 20px;
+	color: #666666;
+}
+
+.title_about p:hover {
+	transition: 0.7s;
+	cursor: pointer;
+	color: #000;
+	font-weight: 700;
+}
+
+.carousel-item img {
+	width: 570px;
+	height: 340px;
+}
+
+.SLIDER {
+	opacity: 0.7;
+}
+
+.SLIDER:hover {
+	opacity: 1;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.bottom_title_about_us {
+	margin-top: 50px;
+}
+
+.about_us_contact h2 {
+	font-size: 20px;
+	color: #666666;
+	padding-bottom: 10px;
+}
+
+.about_us_contact p  {
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: 0.001em;
+	color: #666666;
+	padding-bottom: 10px;
+}
+
+#cursiv {
+	font-style: italic;
+}
+
+#MEET_US_NOW, #CONTACT_US {
+	width: 160px;
+	height: 50px;
+	border-radius: 4px;
+	outline: none;
+	font-size: 15px;
+	letter-spacing: 0.0015em;
+	border: none;
+}
+
+#MEET_US_NOW {
+	background: #ff7200;
+	color: #fff;
+}
+
+#CONTACT_US {
+	background: #fff;
+	color: #ff7200;
+	border:  1px solid #ff7200;
+	margin-left: 20px;
+}
+
+#MEET_US_NOW:hover, #CONTACT_US:hover {
+	cursor: pointer;
+	border: 2px solid #954708;
+}
+
+/*===========================
+	WE ARE A TEAM
+============================*/
+
+
+.WE_ARE_A_TEAM {
+	background: #fff;
+	opacity: 0.7;
+	height: 1020px;
+}
+
+.WE_ARE_A_TEAM:hover {
+	transition: 0.7s ease;
+	opacity: 1;
+	transform: scale(0.9);
+	border-top: 2px solid #000;
+}
+
+
+.top_title-WE_ARE_A_TEAM h1 {
+	margin-top: 45px;
+	font-size: 36px;
+	color: #666666;
+	font-weight: bold;
+	border-bottom: 2px solid #666;
+}
+
+.top_title-WE_ARE_A_TEAM p {
+	margin-top: 25px;
+	font-size: 14px;
+	color: #666666;
+	padding-bottom: 60px;
+}
+
+.img_title img:hover {
+	cursor: pointer;
+	transition: 1s;
+	transform: rotate(360deg);
+	text-align: center;
+}
+
+.img_title p {
+	text-align: center;
+	font-size: 16px;
+	color: #666;
+	padding-top: 10px;
+}
+
+.img_title span {
+	color: #ff7e26;
+}
+
+.bottom_title_WE_ARE_A_TEAM h1 {
+	margin-top: 65px;
+	font-size: 36px;
+	color: #666666;
+	font-weight: bold;
+	border-bottom: 2px solid #666;
+}
+
+.bottom_title_WE_ARE_A_TEAM p {
+	margin-top: 25px;
+	font-size: 14px;
+	color: #666666;
+}
+
+.bottom_title_WE_ARE_A_TEAM h1:hover {
+	color: #000;
+	font-weight: bold;
+	border-bottom: 2px solid #000;
+	cursor: pointer;
+	transition: 0.7s;
+}
+
+.bottom_title_WE_ARE_A_TEAM p:hover {
+	color: #000;
+	font-weight: 700;
+}
+
+.hide_img {
+	display: none;
+}
+/*===========================
+	Gallery
+============================*/
+.top_title_gallery, .bottom_title_gallery {
+	display: flex;
+}
+
+.top_title_gallery img {
+	padding: 0;
+	margin: 0 auto;
+	opacity: 0.8;
+}
+
+
+.bottom_title_gallery img {
+	padding: 0;
+	margin: 0 auto;
+	opacity: 0.6;
+}
+
+
+.top_title_gallery img:hover, .bottom_title_gallery img:hover {
+	opacity: 1;
+	transition: 0.8s;
+	cursor: pointer;
+}
+
+/*===========================
+	 BUY OXXO NOW!
+============================*/
+
+.BUY_OXXO_NOW {
+	height: 460px;
+	background: #fff;
+}
+
+.inner_BUY_OXXO_NOW h1 {
+	margin-top: 100px;
+}
+
+.inner_BUY_OXXO_NOW h1:hover {
+	color: #000;
+	font-weight: bold;
+	border-bottom: 2px solid #000;
+	cursor: pointer;
+	transition: 0.7s;
+}
+
+.inner_BUY_OXXO_NOW p {
+	margin-top: 25px;
+}
+
+.inner_BUY_OXXO_NOW p:hover {
+	color: #000;
+	font-weight: 700;
+}
+
+.inner_BUY_OXXO_NOW button {
+	width: 160px;
+	height: 50px;
+	border-radius: 4px;
+	outline: none;
+	font-size: 15px;
+	letter-spacing: 0.0015em;
+	border: none;
+}
+
+#BUY_NOW {
+	background: #ff7200;
+	color: #fff;
+}
+
+#CONTACT_US_2 {
+	background: transparent;
+	color: #ff7200;
+	border:  1px solid #ff7200;
+	margin-left: 20px;
+}
+
+#BUY_NOW:hover, #CONTACT_US_2:hover {
+	cursor: pointer;
+	border: 2px solid #954708;
+	width: 200px;
+	transition: 1s;
+}
+
+/*===========================
+	 WHAT OUR CLIENTS SAY?
+============================*/
+.WHAT_OUR_CLIENTS_SAY {
+	padding: 0;
+	margin-top: 172px;
+}
+
+.WHAT_OUR_CLIENTS_SAY img {
+	width: 100%;
+	height: 570px;
+}
+/*===========================
+	 title platform
+============================*/
+
+.title_platform {
+	height: 160px;
+	background: #ff7200;
+	display: flex;
+}
+
+.title_platform img {
+	margin-top: 55px;
+}
+
+.title_platform:hover {
+	cursor: pointer;
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+	transition: 0.8s;
+	transform: rotateX(-360deg);
+}
+
+/*===========================
+	 contct_info
+============================*/
+
+.contact_info {
+	background: #303030;
+	height: 500px;
+	padding-top: 60px;
+}
+
+.inner_contact_form input {
+	width: 270px;
+	height: 35px;
+	background: #fff;
+	color: #acabab;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-indent: 6px;
+	outline: none;
+}
+
+.inner_contact_form textarea {
+	height: 120px;
+	width: 270px;
+	margin-top: 10px;
+	text-indent: 6px;
+	outline: none;
+	padding-top: 5px;
+}
+
+.inner_contact_form input[type="submit"] {
+	width: 112px;
+	height: 32px;
+	background: #ff7200;
+	border: 2px solid #b75200;
+	color: #fff;
+	margin-top: 15px;
+	margin-left: 160px;
+}
+
+.inner_contact_form input:hover {
+	border: 2px solid #000;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.inner_contact_form textarea:hover {
+	border: 2px solid #000;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.inner_contact_form input[type="submit"]:hover {
+	color: #000;
+}
+
+.inner_img img:hover {
+	transition: 0.7s;
+	transform: rotate(360deg);
+}
+
+.inner_img {
+	display: flex;
+	justify-content: space-between;
+}
+
+/*===========================
+	 footer
+============================*/
+
+footer {
+	background: #202020;
+	height: 80px;
+}
+
+.right_title a {
+	text-decoration: none;
+	display: inline-block;
+	color: #acabab;
+	font-size: 14px;
+	padding: 25px 5px;
+}
+
+.right_title a:hover {
+	transition: 0.7s;
+	color: #fff;
+}
+
+footer:hover {
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+	transition: 0.6s;
+}

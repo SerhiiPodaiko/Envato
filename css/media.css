@@ -1,0 +1,314 @@
+/*
+@media (max-width: 575.98px) { ... }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+@media (min-width: 1200px) { ... }*/
+
+
+/*================================
+    HEADER
+==================================*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.navigation_left a, .navigation_right a {
+	font-size: 11px;
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+.navigation_left  {
+	margin-left: 0;
+}
+
+.navigation_left a, .navigation_right a {
+	font-size: 12px;
+	padding: 0 0;
+	line-height: 33px;
+	text-align: center;
+}
+
+.navigation_left ul, .navigation_right ul{
+	display: flex;
+	flex-direction: column;
+}
+
+ li:nth-child(2) {
+	display: none;
+}
+ li:nth-child(3) {
+	display: none;
+}
+ li:nth-child(4) {
+	display: none;
+}
+}
+
+/*===========================
+	About us
+============================*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.abou_us_left a, .abou_us_right a {
+	padding: 0 5px;
+	line-height: 33px;
+	font-size: 11px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+.abou_us_left a, .abou_us_right a {
+	padding: 0 1px;
+	line-height: 23px;
+	font-size: 11px;
+	padding-top: 15px;
+}
+
+.abou_us_left {
+	margin-left: 0;
+}
+
+.abou_us_center h1 {
+	font-size: 35px;
+}
+
+.fixed_title {
+	height: 120px;
+}
+
+.fixed_title:hover {
+	transition: 0.8s ease;
+	height: 123px;
+}
+
+#MEET_US_NOW, #CONTACT_US {
+	width: 150px;
+}
+
+.about_us_contact p {
+	font-size: 12px;
+	line-height: 20px;
+}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+.navigation_left  {
+	margin-left: 0;
+}
+
+.bottom_title_about_us img {
+	height: 300px;
+} 
+
+.about_us_contact {
+	display: none;
+}
+
+
+
+.navigation_left a, .navigation_right a {
+	font-size: 14px;
+	padding: 0 20px;
+	line-height: 33px;
+}
+
+.navigation_left, .navigation_right {
+	display: flex;
+	justify-content: space-between;
+}
+
+.abou_us_left {
+	margin-left: 0;	
+}
+
+.navigation_left a, .navigation_right a {
+	display: block;
+}
+
+.title_center {
+	margin-top: 100px;
+}
+
+.slider-header {
+	height: 650px;
+}
+
+.abou_us_left a, .abou_us_right a {
+	font-size: 14px;
+	padding: 0 20px;
+	line-height: 33px;
+}
+
+.btn_wrap {
+	display: flex;
+	justify-content: space-around;
+}
+
+.title_about {
+	margin-top: 50px;
+}
+}
+
+@media (max-width: 575.98px) {
+.navigation_left  {
+	margin-left: 0;
+}
+
+.abou_us_left {
+	margin-left: 0;	
+}
+
+.title_center {
+	margin-top: 60px;
+}
+
+.slider-header {
+	height: 600px;
+}
+
+.btn_wrap {
+	display: flex;
+	justify-content: space-around;
+}
+
+.about_us_contact p {
+	font-size: 10px;
+}
+
+}
+/*===========================
+	WE ARE A TEAM
+============================*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+#_p {
+		padding-top: 30px;
+}
+
+.img_title a:last-child {
+	display: none;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+#_p {
+	padding-top: 35px;
+}
+
+.img_title a {
+	display: none;
+}
+
+.hide_img {
+	display: block;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 70px;
+}
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.hide_img {
+	display: block;
+	display: flex;
+	justify-content: space-around;
+	border: 1px solid red;
+	width: 100%;
+	margin-top: 70px;
+}
+
+.img_title a {
+	display: none;
+}
+
+.img_title p {
+	font-size: 12px;
+}
+}
+
+/*===========================
+	Gallery
+============================*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+.Gallery img {
+	height: 150px;
+}
+
+.Gallery {
+	height: auto;
+}
+}
+
+@media (max-width: 575.98px) {
+.Gallery img {
+	height: 150px;
+	width: 100px;
+}
+
+.Gallery {
+	height: auto;
+}
+}
+
+/*===========================
+	contct_info
+============================*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.inner_contact_form input {
+	width: 235px;
+}
+
+.inner_contact_form textarea {
+	width: 235px;
+}
+
+.inner_contact_form input[type="submit"] {
+	margin-left: 130px;
+	width: 105px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+.inner_latest_post, .inner_our_services {
+	display: none;
+}
+}
+
+/*===========================
+	 footer
+============================*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.right_title a {
+	padding: 25px 2px;
+	font-size: 12px;
+}
+
+.center_title p {
+	font-size: 10px;
+	padding-left: 20px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+.right_title a {
+	padding: 25px 1px;
+	font-size: 10px;
+}
+
+.center_title p {
+	font-size: 9px;
+	padding-left: 20px;
+}
+}
+
+
